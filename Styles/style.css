@@ -14,15 +14,16 @@ body {
 .com-color {
     color: #F00;
 }
-button{
+
+button {
     font-family: Inter;
     font-size: 20px;
     font-weight: 700;
     color: #FFF;
-    padding: 20px;
+    padding: 16px 32px;
     border-style: double;
     border: 01px solid salmon;
-    border-radius: 05px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
@@ -88,19 +89,19 @@ header h1 {
 /* End of 65% off style */
 
 /* Midnight party style */
-.party-container{
-    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/midnight\ party.png) ;
+.party-container {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../Images/midnight\ party.png);
     background-size: cover;
-    border-radius: 16px ;
+    border-radius: 16px;
     padding: 70px 100px;
     margin-bottom: 120px;
 }
+
 .party-content {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 35px;
-
 }
 
 .party-content .party-text {
@@ -131,3 +132,34 @@ header h1 {
     margin-left: 30px;
 }
 
+/* End of Midnight party style */
+
+/* Party Venu section style */
+.venue-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 385px 125px;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+
+.venue-container .venue-content {
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #070211;
+}
+
+.venue-content span {
+    color: #F00;
+}
+
+.venue-content button {
+    margin-top: 48px;
+    background-color: #F00;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* End of Party Venu section style */
