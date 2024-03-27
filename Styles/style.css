@@ -215,21 +215,54 @@ header h1 {
 .year-content {
     font-family: Inter;
     max-width: 300px;
-    margin-top:112px ;
+    margin-top: 112px;
 }
 
 .year-content .year {
     font-size: 48px;
     font-weight: 700;
 }
-#sit{
+
+#sit {
     margin-top: 16px;
     margin-bottom: 45px;
 }
-.year-content .year-img{
+
+.year-content .year-img {
     width: auto;
     display: flex;
     justify-content: end;
     align-items: end;
 }
+
 /* End of coming soon section style */
+
+/* Holiday Sale section */
+.sale-content {
+    text-align: center;
+    padding: 0 100px;
+    margin-bottom: 65px;
+}
+
+.sale-content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-content h2 {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+
+#sale-dolor {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
