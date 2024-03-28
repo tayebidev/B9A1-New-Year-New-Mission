@@ -4,7 +4,13 @@
     padding: 0;
 }
 
-body {
+/* body {
+    width: 80%;
+    max-width: 1320px;
+    margin: 0 auto;
+    font-family: "Merriweather", "Inter", sans-serif;
+} */
+#main, header {
     width: 80%;
     max-width: 1320px;
     margin: 0 auto;
@@ -34,7 +40,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 16px;
-    margin: 20px 0 120px;
+    margin-bottom: 120px;
 }
 
 header .header-container {
@@ -428,3 +434,11 @@ form button {
     background: #F00;
 }
 /* <!-- End of Subscribe section --> */
+
+/* footer section */
+body footer {
+    width: 100%;
+    max-width: 1900px;
+    background: #070211;
+    margin-bottom: 120px;
+}
