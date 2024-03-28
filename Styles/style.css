@@ -266,3 +266,54 @@ header h1 {
     font-weight: 500;
     line-height: 32px;
 }
+
+.sale-img-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* img style */
+.sale-img-content .img-box {
+    display: flex;
+    align-items: center;
+
+}
+
+.gift-box {
+    display: flex;
+    margin-left: -250px;
+    margin-right: 90px;
+}
+
+.gift-box img {
+    background: #fff;
+}
+
+.lady-percent {
+    display: inline-flex;
+}
+
+.lady-percent .women {
+    margin-right: -230px;
+    margin-left: 0;
+}
+
+.women img {
+    max-width: auto;
+}
+
+.lady-percent .percent {
+    max-width: auto;
+    margin-left: -350px;
+    margin-right: 0;
+}
+
+.percent img {
+    max-width: auto;
+}
+
+.red {
+    margin-top: -120px;
+    margin-bottom: 120px;
+}
