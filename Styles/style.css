@@ -349,26 +349,82 @@ header h1 {
     font-weight: 400;
     line-height: 32px;
 }
-.portfolio-img-profile{
-    cursor:pointer;
+
+.portfolio-img-profile {
+    cursor: pointer;
 }
-.portfolio-img-container-one img{
+
+.portfolio-img-container-one img {
     margin-right: 20px;
     width: 400px;
     margin-bottom: 25px;
     border-radius: 05px;
     box-shadow: 8px 10px 10px rgb(151, 140, 140);
 }
-.portfolio-img-container-two img{
+
+.portfolio-img-container-two img {
     margin-right: 20px;
     width: 400px;
     margin-bottom: 25px;
     border-radius: 05px;
     box-shadow: 8px 10px 10px rgb(151, 140, 140);
 }
-.portfolio-img-container-one img:hover{
-    rotate:45deg ;
+
+.portfolio-img-container-one img:hover {
+    rotate: 45deg;
 }
-.portfolio-img-container-two img:hover{
-    rotate:45deg ;
+
+.portfolio-img-container-two img:hover {
+    rotate: 45deg;
 }
+
+/* <!-- End of Portfolio section --> 
+
+/* <!-- Subscribe section --> */
+.subscribe-container {
+    text-align: center;
+    margin-bottom: 120px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px 200px;
+}
+
+.subscribe-container h3 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+
+.subscribe-container .subscribe-description {
+    text-align: center;
+    align-items: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.subscribe-container form {
+    max-width: 515px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.subscribe-container form input {
+    flex-grow: 1;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+    padding: 30px;
+}
+form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+}
+/* <!-- End of Subscribe section --> */
