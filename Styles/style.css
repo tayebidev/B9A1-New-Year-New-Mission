@@ -10,7 +10,8 @@
     margin: 0 auto;
     font-family: "Merriweather", "Inter", sans-serif;
 } */
-#main, header {
+#main,
+header {
     width: 80%;
     max-width: 1320px;
     margin: 0 auto;
@@ -429,16 +430,78 @@ header h1 {
     border: none;
     padding: 30px;
 }
+
 form button {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+
 /* <!-- End of Subscribe section --> */
 
 /* footer section */
-body footer {
-    width: 100%;
-    max-width: 1900px;
+footer {
     background: #070211;
-    margin-bottom: 120px;
 }
+
+.footer-container {
+    padding: 120px 0;
+}
+
+.footer-text-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.right-text .call-group {
+    margin-bottom: 16px;
+}
+
+.call-group,
+.web-group {
+    display: flex;
+    gap: 16px;
+}
+
+.right-group {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+hr {
+    margin: 50px;
+    border-color: black;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media>a {
+    margin-right: 25px;
+}
+
+.last-text-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+.unsubscribe button{
+  background: none;
+}
+.unsubscribe button:hover{
+    color: red;
+  }
